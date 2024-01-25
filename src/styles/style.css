@@ -92,7 +92,7 @@ body{
 
 .section-playlist{
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     background-color: #242424;
     justify-content: space-between;
     gap: 20px;
