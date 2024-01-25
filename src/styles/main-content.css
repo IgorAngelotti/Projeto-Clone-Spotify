@@ -41,8 +41,6 @@
     cursor: pointer;
 }
 
-
-
 .header__search{
     display: flex;
     align-items: center;
@@ -75,8 +73,6 @@
     white-space: nowrap;
     outline: none;
 }
-
-
 
 .header__login{
     display: flex;
