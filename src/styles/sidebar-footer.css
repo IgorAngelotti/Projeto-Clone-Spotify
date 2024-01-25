@@ -167,3 +167,45 @@ body{
     border-radius: 20px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+    position: fixed;
+    padding: 10px 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+
+}
+
+footer .footer__txt{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; 
+    justify-content: center;
+}
+
+.footer__txt .test-title{
+    padding-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer__txt .test-subtitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer__button button{
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 40px;
+    color: var(--txt-black);
+    font-weight: bold;
+}
